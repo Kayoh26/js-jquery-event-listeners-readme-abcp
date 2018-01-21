@@ -15,6 +15,6 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on('load',function(){
-    border-color:red;
+    ;
   })
 }
