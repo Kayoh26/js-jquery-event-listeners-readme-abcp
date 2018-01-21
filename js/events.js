@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 // call functions here
 getIt();
+frameIt();
 });
 
 function getIt(){
@@ -14,5 +15,6 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on('load',function(){
-    border-color:red})
+    border-color:red;
+  })
 }
