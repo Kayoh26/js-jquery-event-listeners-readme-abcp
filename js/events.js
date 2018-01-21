@@ -15,6 +15,6 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on('load',function(){
-    $(this).css('border',"solid 2px red");
+    $(this).css("border","solid 2px red");
   })
 }
